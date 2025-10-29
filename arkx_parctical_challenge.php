@@ -2,7 +2,7 @@
 // Database connection
 $dsn = "mysql:host=localhost;dbname=bookstore";
 $username = "root";
-$password = "";
+$password = "1234";
 
 try {
     $conn = new PDO($dsn, $username, $password);
